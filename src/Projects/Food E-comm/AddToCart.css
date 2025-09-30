@@ -1,0 +1,100 @@
+/* Whole page background */
+body {
+  background: #f4f6f9;
+  font-family: Arial, sans-serif;
+}
+
+/* Container for all items */
+.add_list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  max-width: 950px;
+  margin: auto;
+}
+
+/* Navigation bar wrapper */
+.nav_bar {
+  margin-bottom: 25px;
+      /* margin-left: -46px; */
+}
+
+/* Each product row */
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Product image */
+.list img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Product text */
+.list p {
+  margin: 0 15px;
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+  flex: 1;
+}
+
+/* Quantity section */
+.qty {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+  margin-left: 120px;
+}
+
+/* Qty buttons */
+.qty button {
+  background: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.qty button:hover {
+  background: #0056b3;
+}
+
+/* Qty number */
+.qty p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Subtotal section */
+.cart-summary {
+  max-width: 950px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  text-align: right;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cart-summary h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #222;
+}
