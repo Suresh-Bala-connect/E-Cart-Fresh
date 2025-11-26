@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-
 import {Link,BrowserRouter , Routes,Route } from "react-router-dom";
 import './Home.css';
 import Product_Details from "./Product_Details";
@@ -127,7 +126,7 @@ function Nav_bar(){
                                             )
                                         })
                                     ) : (
-                                        <p></p>
+                                        <p> </p>
                                     )
                                 }
             </div>
